@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+header,main,footer,nav,aside,section{
+    display: block;
+}
+html{
+    background-color: grey;
+}
+
+body{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(40, 236, 128);    
+    height: auto;
+    width: auto;;
+    margin: 0px auto;
+}
+
+#narrowDiamond {
+    top:26px;
+    left: 119px;
+	width: 0;
+	height: 0;
+	border: 25px solid transparent;
+	border-bottom: 60px solid white;
+	position: relative;
+    transform: rotate(90deg);
+} 
+#narrowDiamond:after { 
+	content: '';
+	position: absolute;
+    left: -24.8px;
+	top: 59.9px;
+	width: 0;
+	height: 0;
+	border: 25px solid transparent;
+	border-top: 60px solid white;
+} 
+
+.nav-1{
+    position: relative;
+    margin-top: 331px;
+    left:224.3px;
+}
+.nav-1 ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav-1 ul li{
+    margin-top: 16px;
+    background-color: white;
+    width: 242px;
+    height: 57px;
+}
+.nav-1 ul li:hover{
+    background-color: pink;
+}
+.nav-1 ul li a{
+    position: absolute;
+    padding-left: 85px;
+    padding-top: 15px;
+    color: black;
+}
+#active{
+    background-color: green;
+    color: white;
+}
+#active a{
+    color:white;
+}
+#active:hover{
+    background-color: pink;
+}
+
+.wrapper{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: rgb(40, 236, 128);   
+}
+
+#SM-Box{
+    position: absolute;
+    top:422px;
+    left: 28px;
+    width: 98px;
+    height: 32px;
+    background-color: white;
+}
+
+#BG-Box{
+    position: absolute;
+    top:426px;
+    left:272px;
+    height: 390px;
+    width: 336px;
+    background-color: white;
+}
+#MD-Box{
+    position: absolute;
+    height: 338px;
+    width: 338px;
+    top: 426px;
+    left: 632px;
+    background-color: white;
+
+}
+footer{
+    position: absolute;
+    top:878px;
+    background-color: rgb(40,236,128);
+    height: 100px;
+    width: 1000px;
+}
+/*--------------------------------------------------------------------------*/
+.wrapper2{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 193px;
+    background-color: rgb(40, 236, 128);   
+}
+
+.headerLayout2{
+    height: 193px;
+}
+
+.leftNav{
+    float: left;
+}
+.nav-2{
+    position: absolute;
+    top: 193px;
+    left: 0;
+    background-color: white;
+    width: 203px;
+    height: 1000px;
+}
+.nav-2 ul{
+    text-decoration: none;
+
+}
+.nav-2 ul li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.nav-2 ul li a{
+    text-align: left;
+    color: black;
+}
+
+.nav-2 ul li:hover{
+    background-color: pink;
+}
+
+.centerBox{
+    position: absolute; 
+    top: 193px;
+
+}
+ .twoBox{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+}
+#leftBox{
+    position: absolute;
+    height: 239px;
+    width: 239px;
+    left: 236px;
+    background-color: aqua;
+}
+#rightBox{
+    position: absolute;
+    height: 239px;
+    width: 239px;
+    left: 505px;
+    background-color: aqua;
+}
+#leftBox:hover{
+    opacity: 0.3;
+}
+#rightBox:hover{
+    opacity: 0.4;
+}
+
+#topBox{
+    position: absolute;
+    height: 239px;
+    width: 239px;
+    top: 320px;
+    left: 236px;
+    background-color: aqua;
+}
+#buttomBox{
+    position: absolute;
+    height: 239px;
+    width: 239px;
+    left: 236px;
+    top: 620px;
+    background-color: aqua;
+}
+#midRightBox{
+    position: absolute;
+    height: 239px;
+    width: 239px;
+    left: 505px;
+    top: 480px;
+    background-color: aqua;
+}
+#topBox:hover{
+    background-color: yellow;
+}
+#buttomBox:hover{
+    background-color: blue;
+}
+#midRightBox:hover{
+   background-color: darkorchid;
+}
+.rightBar{
+    position: absolute;
+    top: 193px;
+    left: 797px;
+    background-color: white;
+    width: 203px;
+    height: 1000px;
+}
+
+#rectangle{
+    position: absolute;
+    height: 204px;
+    width: 75px;
+    background-color: gray;
+    top: 63px;
+    left: 95px;
+}
+#rectangle:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(8,25,131,1) 41%, rgba(0,212,255,1) 100%);
+}
+
+#square{
+    position: absolute;
+    height: 105px;
+    width: 105px;
+    background-color: rgb(247, 34, 34);
+    top: 850px;
+    left: 55px;
+}
+#square:hover{
+    background-color: greenyellow;
+}
+#foot{
+    position: absolute;
+    background-color: rgb(40, 236, 128);
+    height: 100px;
+    width: 1000px;
+    top: 1180px;
+}
